@@ -1,0 +1,18 @@
+import java.awt.geom.QuadCurve2D;
+import java.util.Iterator;
+import java.util.PriorityQueue;
+import java.util.Queue;
+
+public class Main {
+    public static void main( String[] args ) {
+        Queue<String> pq = new PriorityQueue<> ();
+        pq.add ( "Steve" );
+        pq.add ( "Marley" );
+        pq.add ( "Greta" );
+        Iterator iterator = pq.iterator ();
+        while (iterator.hasNext ()) {
+            System.out.println ( iterator.next () + "" );
+
+        }System.out.println ("Todos los maricas");
+    }
+}
